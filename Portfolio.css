@@ -1,0 +1,266 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left: 0px;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: gray;
+    text-align: right;
+    padding: 18px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    float: right;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: #555;
+    color: lightskyblue;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+div.navbar {
+    display: block;
+    margin:0px;
+}
+#name {
+    color: lightgrey;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding:14px 16px;
+    display: inline-block;
+    float:left;  
+}
+
+#intro {
+    background-image:url(Stata.jpg);
+    padding: 0px;
+    vertical-align:top; 
+}
+
+#ana {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#mit {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    text-align: center; 
+    padding-bottom: 150px;
+}
+h1.header {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0;
+    
+}
+
+#portfolio {
+    display:block;
+    padding-bottom: 50px;
+    padding-top: 50px;
+        
+}
+
+#magx {
+    width:25%;
+    height: 200px;
+    margin:2.5%;
+    margin-left: 7.5%;
+    display: inline-block;
+    float:left;
+}
+
+#magximg {
+    width:100%;
+    height: 200px;
+    display: inline-block;
+    float:left;
+}
+
+#tacit {
+    height: 200px;
+    width: 25%;
+    margin:2.5%;
+    display: inline-block;
+    align-content: center;
+    float: left; 
+}
+
+#tacitimg {
+    width:100%;
+    height: 200px;
+    display: inline-block;
+}
+
+#serra {
+    height: 200px;
+    width: 25%;
+    background-color: lightskyblue;
+    margin:2.5%;
+    margin-right: 7.5%
+    display: inline-block;
+    float:left;
+}
+
+#center {
+    width: 100%;
+    align-self: center;
+}
+
+h3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    padding-top: 10%;
+}
+
+
+#about {
+    margin-top: 250px;
+    background-color: lightskyblue;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#aboutheader {
+    color: white;
+    padding-bottom: 0;
+    padding-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p {
+    font-family:"Franklin Gothic Medium", Gadget, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+#me {
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#download {
+    display: table;
+    text-decoration:none;
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 18px 5px;
+    transition: 0.3s;
+    font-size: 24px;
+    font-family: "Franklin Gothic Medium", Gadget, sans-serif;
+    border: solid;
+    border-radius: 10px;
+}
+
+#download:hover {
+    background-color: white;
+    color: lightskyblue;
+    border: solid;
+    border-color: white;
+}
+
+#magx:hover {
+    background-color: lightskyblue;
+}
+
+#magx:hover h3 {
+    display: block;
+}
+
+#magx:hover img {
+    display: none;
+}
+
+#tacit:hover {
+    background-color: lightskyblue;
+}
+
+#tacit:hover h3 {
+    display: block;
+}
+
+#tacit:hover img {
+    display: none;
+}
+
+#serra:hover {
+    background-color: lightskyblue;
+}
+
+#serra:hover h3 {
+    display: block;
+}
+
+#serra:hover img {
+    display: none;
+}
+
+#contact {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#email {
+    color: #333;
+}
+
+#linkedin {
+    font-family:"Franklin Gothic Medium", Gadget, sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+    text-decoration: none;
+    text-decoration: underline;
+}
